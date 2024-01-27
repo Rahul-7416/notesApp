@@ -10,7 +10,7 @@ function addInputBox() {
     const img = document.createElement('img');
     inputBox.className = 'input-box';
     inputBox.setAttribute('contenteditable', 'true');
-    img.src = 'assests/delete.png';
+    img.src = 'assets/delete.png';
     notesSection.appendChild(inputBox).appendChild(img);
 }
 
